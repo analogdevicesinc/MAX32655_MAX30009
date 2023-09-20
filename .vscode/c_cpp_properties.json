@@ -1,0 +1,57 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "C:\\MaximSDK/**",
+                "C:\\MaximSDK\\Libraries\\PeriphDrivers\\Include\\MAX32655",
+                "C:\\MaximSDK\\Libraries\\Boards\\MAX32655/**"
+            ],
+            "defines": [
+                "${default}"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "${config:ARM_GCC_path}/bin/arm-none-eabi-gcc.exe",
+            "browse": {
+                "path": [
+                    "${default}"
+                ]
+            },
+            "configurationProvider": "ms-vscode.makefile-tools"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${default}"
+            ],
+            "defines": [
+                "${default}"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "${config:ARM_GCC_path}/bin/arm-none-eabi-gcc",
+            "browse": {
+                "path": [
+                    "${default}"
+                ]
+            }
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${default}"
+            ],
+            "defines": [
+                "${default}"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "${config:ARM_GCC_path}/bin/arm-none-eabi-gcc",
+            "browse": {
+                "path": [
+                    "${default}"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
